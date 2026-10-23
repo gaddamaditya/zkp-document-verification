@@ -409,7 +409,7 @@ into a complete end-to-end verification workflow.
 
 ---
 
-## Research Authors
+## Contributors
 
 This project is a collaborative Summer Research Internship research project conducted by:
 
