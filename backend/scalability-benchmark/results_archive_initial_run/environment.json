@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-22T12:55:09.741Z",
+  "platform": "win32",
+  "arch": "x64",
+  "nodeVersion": "v22.19.0",
+  "circomVersion": "2.2.3",
+  "snarkjsVersion": "0.7.6",
+  "provingSystem": "Groth16",
+  "curve": "BN128",
+  "repetitions": 10,
+  "ptauFile": "pot12_final.ptau (2^12 = 4096 max constraints)"
+}

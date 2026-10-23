@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-22T13:34:33.722Z",
+  "platform": "win32",
+  "arch": "x64",
+  "nodeVersion": "v22.19.0",
+  "circomVersion": "2.2.3",
+  "snarkjsVersion": "0.7.6",
+  "provingSystem": "Groth16",
+  "curve": "BN128",
+  "ptauFile": "pot12_final.ptau (2^12 = 4096 max constraints)",
+  "warmupRepetitions": 2,
+  "measuredRepetitions": 10,
+  "witnessStorage": "in-memory (Buffer / { type: \"mem\" }, no intermediate disk write)",
+  "timingMethod": "process.hrtime.bigint() (monotonic high-resolution, converted to ms)",
+  "standardDeviationFormula": "sample standard deviation (denominator n - 1 = 9)",
+  "fileSizeUnit": "KiB (1024 bytes per KiB)"
+}

@@ -1,0 +1,7 @@
+Attributes,Constraints,Wires,Public_Inputs,Private_Inputs,Witness_Mean_ms,Witness_Stddev_ms,Prove_Mean_ms,Prove_Stddev_ms,Verify_Mean_ms,Verify_Stddev_ms,R1CS_Size_KiB,Proof_Size_Bytes,Compilation_ms,Setup_ms,Warmup_Reps,Measured_Reps,All_Verified,Invalid_Rejected
+1,4,6,1,1,18.9,3.69,109.43,15.79,29.28,22.16,0.59,725,125.6,1148.7,2,10,true,true
+5,20,30,5,5,17.85,3.15,72.94,8.36,24.88,3.75,2.65,721,176.3,135.8,2,10,true,true
+10,40,60,10,10,19.57,8.46,61.59,8.67,22.19,5.76,5.23,721,133,196.1,2,10,true,true
+20,80,120,20,20,14.22,4.55,50.01,12.74,13.75,5.02,10.39,721,153.4,209.4,2,10,true,true
+50,200,300,50,50,13.45,1.46,49.85,9.05,10.14,1.26,25.86,723,212.6,301.5,2,10,true,true
+100,400,600,100,100,25.86,10.15,62.57,16.37,10.49,1.44,51.64,719,270.8,470.2,2,10,true,true

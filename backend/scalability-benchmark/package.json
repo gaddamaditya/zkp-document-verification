@@ -1,0 +1,15 @@
+{
+  "name": "scalability-benchmark",
+  "version": "1.0.0",
+  "description": "Isolated scalability benchmark for ZKP-DOCVerify Table 4 verification",
+  "private": true,
+  "scripts": {
+    "generate": "node generate-circuits.js",
+    "benchmark": "node run-benchmark.js",
+    "full": "node generate-circuits.js && node run-benchmark.js"
+  },
+  "dependencies": {
+    "circomlib": "^2.0.5",
+    "snarkjs": "^0.7.6"
+  }
+}

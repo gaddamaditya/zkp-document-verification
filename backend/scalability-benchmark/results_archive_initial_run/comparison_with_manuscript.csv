@@ -1,0 +1,7 @@
+Attributes,Constraints_Manuscript,Constraints_Measured,Match,R1CS_KB_Manuscript,R1CS_KB_Measured,Witness_Manuscript,Witness_Measured,Prove_Manuscript,Prove_Measured,Verify_Manuscript,Verify_Measured
+1,3,4,false,0.52,0.59,36,24.7,495,77.1,335,14
+5,15,20,false,2.1,2.65,36,14.3,369,47.5,455,14.2
+10,30,40,false,4.1,5.23,59,23.2,384,50.1,315,15.6
+20,60,80,false,8,10.39,54,18.6,379,52.4,323,14
+50,150,200,false,20,25.86,47,29.3,416,83.5,350,17.7
+100,300,400,false,40,51.64,47,34.6,486,73.9,325,11.6
