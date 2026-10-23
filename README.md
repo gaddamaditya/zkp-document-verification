@@ -1,6 +1,6 @@
 # Privacy-Preserving Document Verification using Zero-Knowledge Proofs
 
-A research project that enables users to prove specific facts about their documents without revealing the document itself.
+A collaborative Summer Research Internship research project that enables users to prove specific facts about their documents without revealing the document itself.
 
 ## Project Overview
 
@@ -358,30 +358,31 @@ This proof failed cryptographic verification.
 
 The system is designed around the principle of **Selective Disclosure**.
 
-### Private Information
+### Private Information (Private Witness Data)
 
 Never shared with the verifier:
 
 - Original document
 - Raw OCR text
-- Personal details
-- Sensitive attributes
+- Private attributes and witness inputs used in circuit computation
 
-### Shared Information
+### Shared Information (Public Signals & Proof)
 
-Only:
+Shared with the verifier:
 
-- Zero-Knowledge Proof
-- Public Signals
-- Verification Key
+- Zero-Knowledge Proof (`proof.json`)
+- Public Signals (`public.json`)
+- Verification Key (`verification_key.json`)
 
-This allows verification without revealing document contents.
+This allows verification of specific claims without revealing sensitive underlying document contents.
+
+> **Note on Verification Scope:** Cryptographic verification confirms that the zero-knowledge proof is valid with respect to the compiled circuit constraints and public signals. Proof validity alone verifies the correctness of the computational assertion over the provided witness data, but does not independently establish the physical authenticity or provenance of the source document itself without an external trust anchor (such as a trusted issuer's digital signature).
 
 ---
 
 ## Research Contribution
 
-This project demonstrates how Zero-Knowledge Proofs can be applied to document verification systems to improve privacy and reduce unnecessary data exposure.
+This collaborative research project demonstrates how Zero-Knowledge Proofs can be applied to document verification systems to improve privacy and reduce unnecessary data exposure.
 
 The implementation integrates:
 
@@ -408,49 +409,37 @@ into a complete end-to-end verification workflow.
 
 ---
 
-## Screenshots
+## Research Authors
 
-### Home Page
+This project is a collaborative Summer Research Internship research project conducted by:
 
-_Add screenshots here_
+### Adithya Gaddam
+- **Role:** Project Repository Owner
+- **Department:** Department of Computer Science and Engineering
+- **Institution:** SRM University-AP
+- **Location:** Amaravati, Andhra Pradesh 522240, India
+- **Email:** [adithya_gaddam@srmap.edu.in](mailto:adithya_gaddam@srmap.edu.in)
+- **GitHub:** [https://github.com/gaddamaditya](https://github.com/gaddamaditya)
 
-### Generate Proof
+### Junaid Alam
+- **Department:** Department of Computer Science and Engineering
+- **Institution:** SRM University-AP
+- **Location:** Amaravati, Andhra Pradesh 522240, India
+- **Email:** [junaidalam.r@srmap.edu.in](mailto:junaidalam.r@srmap.edu.in)
 
-_Add screenshots here_
-
-### Verify Proof
-
-_Add screenshots here_
-
-### Proof Verification Result
-
-_Add screenshots here_
+### Yelleti Vivek
+- **Department:** Area of Information Systems and Business Analytics
+- **Institution:** Indian Institute of Management Ranchi
+- **Location:** Ranchi, Jharkhand 835303, India
+- **Email:** [yelleti.vivek@iimranchi.ac.in](mailto:yelleti.vivek@iimranchi.ac.in)
 
 ---
 
-## Author
+## Contact
 
-### Adithya Gaddam
-
-B.Tech Computer Science and Engineering
-
-SRM University AP
-
-Summer Research Internship Project
-
-### Contact
-
-Email:
-
-```text
-gaddamaditya8@gmail.com
-```
-
-GitHub:
-
-```text
-https://github.com/gaddamaditya
-```
+- **Primary Contact:** [adithya_gaddam@srmap.edu.in](mailto:adithya_gaddam@srmap.edu.in) / [gaddamaditya8@gmail.com](mailto:gaddamaditya8@gmail.com)
+- **GitHub Profile:** [https://github.com/gaddamaditya](https://github.com/gaddamaditya)
+- **Repository:** [https://github.com/gaddamaditya/privacy-preserving-document-verification.git](https://github.com/gaddamaditya/privacy-preserving-document-verification.git)
 
 ---
 
