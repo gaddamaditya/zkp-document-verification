@@ -213,7 +213,7 @@ Proof Verification
 ## Project Structure
 
 ```text
-ZKP-DOCVerify
+zkp-document-verification
 │
 ├── api-server-new
 │   ├── routes
@@ -242,9 +242,9 @@ ZKP-DOCVerify
 ### Clone Repository
 
 ```bash
-git clone https://github.com/gaddamaditya/privacy-preserving-document-verification.git
+git clone https://github.com/gaddamaditya/zkp-document-verification.git
 
-cd privacy-preserving-document-verification
+cd zkp-document-verification
 ```
 
 ---
@@ -439,7 +439,7 @@ This project is a collaborative Summer Research Internship research project cond
 
 - **Primary Contact:** [adithya_gaddam@srmap.edu.in](mailto:adithya_gaddam@srmap.edu.in) / [gaddamaditya8@gmail.com](mailto:gaddamaditya8@gmail.com)
 - **GitHub Profile:** [https://github.com/gaddamaditya](https://github.com/gaddamaditya)
-- **Repository:** [https://github.com/gaddamaditya/privacy-preserving-document-verification.git](https://github.com/gaddamaditya/privacy-preserving-document-verification.git)
+- **Repository:** [https://github.com/gaddamaditya/zkp-document-verification](https://github.com/gaddamaditya/zkp-document-verification)
 
 ---
 
